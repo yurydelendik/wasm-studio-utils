@@ -1,0 +1,29 @@
+{
+  "name": "@wasm/studio-utils",
+  "version": "0.0.3",
+  "description": "Set of utils (for gulp, node, etc) to support WebAssembly Studio",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -d --sourceMap --outDir ./dist --target ES2016 --module commonjs --lib esnext src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurydelendik/wasm-studio-utils.git"
+  },
+  "author": "Mozilla Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yurydelendik/wasm-studio-utils/issues"
+  },
+  "homepage": "https://github.com/yurydelendik/wasm-studio-utils#readme",
+  "devDependencies": {
+    "@types/node-fetch": "^1.6.7",
+    "@types/pako": "^1.0.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.0.0",
+    "pako": "^1.0.6"
+  }
+}
